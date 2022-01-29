@@ -1,9 +1,9 @@
 # lotoSort - Gerador de números de loteria.
 
-> Status: Em desenvolvimento. ⚠️
+> Status: Em desenvolvimento. 
 
 ## Código capaz de gerar números aleatórios para sorteios de loteria.
-Sorteios disponívieis: 
+Sorteios disponíveis: 
 + Lotofácil
 + Lotomania
 + Quina
@@ -23,4 +23,4 @@ Para isso, basta executar/compilar o código e inserir o tipo de jogo desejado. 
 + Informe se deseja gerar mais números aleatórios ou finalizar a execução.
 
 
->Sou um intusiasta da programação e, infelizmente, não pude dedicar o tempo necessário para completar esse projeto. Por isso, fico aberto à sugestões.
+>Sou um entusiasta da programação e, infelizmente, não pude dedicar o tempo necessário para completar esse projeto. Por isso, fico aberto à sugestões.

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <random>
 #include <algorithm>
-#include "numRandoms.h"
+#include "numRandoms.hpp"
 
 using namespace std;
 

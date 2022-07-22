@@ -9,16 +9,17 @@ Sorteios disponíveis:
 + Quina
 + Mega-Sena
 
-O código, escrito em C++, gera números aleatórios nas regras de cada sorteio. 
-Para isso, basta executar/compilar o código e inserir o tipo de jogo desejado. Ao final, é possível escolher entre gerar outros números ou finalizar a execução.
+O código, escrito em C++, no terminal, gera números aleatórios nas regras de algumas modalidades de sorteio de loteria. 
+Para isso, basta compilar e executar o código e inserir o tipo de jogo desejado. Ao final, é possível escolher entre gerar outros números ou finalizar a execução.
 
 ### Requisitos
-+ Compilador para C++.
-+ Uma IDE ou outra ferramenta semelhante para executar o código.
++ Compilador GCC.
++ GNU Make
 
 ### Modo de uso:
-+ Compile o código.
-+ Execute o arquivo.
++ Clone o repositório com o comando *git clone https://github.com/GuilhermeSantos99/lotoSort*
++ Na pasta do clone, execute o comando *make* para compilar o código.
++ Execute o comando *./lotoSort* para executar o arquivo.
 + Insira o tipo de jogo desejado.
 + Informe se deseja gerar mais números aleatórios ou finalizar a execução.
 

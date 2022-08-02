@@ -3,56 +3,54 @@
 #include <algorithm>
 #include "numRandoms.hpp"
 
-using namespace std;
-
 int main(){
 
   
  while(true){
 	
-	string tipojog;
+	std::string tipojog;
 
-	cout << endl;
-  	cout << "======= lotoSort ========" << endl;
-	cout << "_________________________" << endl;
- 	cout << "| - Jogos disponíveis - |" << endl;
-	cout << "|-----------------------|" << endl;
-	cout << "| 1 - Quina             |" << endl;
-	cout << "| 2 - Mega-Sena         |" << endl;
-	cout << "| 3 - LotoMania         |" << endl;
-	cout << "| 4 - LotoFácil         |" << endl;
-	cout << "|-----------------------|" << endl;
- 	cout << endl << "Digite o número correspondente ao tipo de aposta: " << endl;
-	cout << ">";
-  	cin >> tipojog;
-  	cout << endl;
+	std::cout << std::endl;
+  	std::cout << "======= lotoSort ========" << std::endl;
+	std::cout << "_________________________" << std::endl;
+ 	std::cout << "| - Jogos disponíveis - |" << std::endl;
+	std::cout << "|-----------------------|" << std::endl;
+	std::cout << "| 1 - Quina             |" << std::endl;
+	std::cout << "| 2 - Mega-Sena         |" << std::endl;
+	std::cout << "| 3 - LotoMania         |" << std::endl;
+	std::cout << "| 4 - LotoFácil         |" << std::endl;
+	std::cout << "|-----------------------|" << std::endl;
+ 	std::cout << std::endl << "Digite o número correspondente ao tipo de aposta: " << std::endl;
+	std::cout << "> ";
+  	std::cin >> tipojog;
+  	std::cout << std::endl;
 
 	if(tipojog == "1")
 	{
-		cout << "Quina" << endl;
+		std::cout << "Quina" << std::endl;
 		quina(); 
 	}else if(tipojog == "2")
 	{
-		cout << "Mega-Sena" << endl;
+		std::cout << "Mega-Sena" << std::endl;
 		sena();
 	}else if(tipojog == "3")
 	{
-		cout << "LotoMania" << endl;
+		std::cout << "LotoMania" << std::endl;
 		mania();
 	}else if(tipojog == "4")
 	{
-		cout << "LotoFácil" << endl;
+		std::cout << "LotoFácil" << std::endl;
 		facil();
 	}else
 	{
-		cout << "Opção inválida, tente novamente." << endl;
-		cout << endl;
+		std::cout << "Opção inválida, tente novamente." << std::endl;
+		std::cout << std::endl;
 	}
 
 	char varConti;
 
-	cout << "Deseja gerar mais números aleatórios? [S/N] ";
-	cin >> varConti;
+	std::cout << "Deseja gerar mais números aleatórios? [S/N] ";
+	std::cin >> varConti;
 	tolower(varConti);
 
 	if (varConti == 'n')

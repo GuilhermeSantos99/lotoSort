@@ -5,46 +5,45 @@
 
 int main(){
 
-  
  while(true){
 	
 	std::string tipojog;
 
-	std::cout << std::endl;
-  	std::cout << "======= lotoSort ========" << std::endl;
-	std::cout << "_________________________" << std::endl;
- 	std::cout << "| - Jogos disponíveis - |" << std::endl;
-	std::cout << "|-----------------------|" << std::endl;
-	std::cout << "| 1 - Quina             |" << std::endl;
-	std::cout << "| 2 - Mega-Sena         |" << std::endl;
-	std::cout << "| 3 - LotoMania         |" << std::endl;
-	std::cout << "| 4 - LotoFácil         |" << std::endl;
-	std::cout << "|-----------------------|" << std::endl;
- 	std::cout << std::endl << "Digite o número correspondente ao tipo de aposta: " << std::endl;
+	std::cout << '\n';
+  	std::cout << "======= lotoSort ========" << '\n';
+	std::cout << "_________________________" << '\n';
+ 	std::cout << "| - Jogos disponíveis - |" << '\n';
+	std::cout << "|-----------------------|" << '\n';
+	std::cout << "| 1 - Quina             |" << '\n';
+	std::cout << "| 2 - Mega-Sena         |" << '\n';
+	std::cout << "| 3 - LotoMania         |" << '\n';
+	std::cout << "| 4 - LotoFácil         |" << '\n';
+	std::cout << "|-----------------------|" << '\n';
+ 	std::cout << '\n' << "Digite o número correspondente ao tipo de aposta: " << '\n';
 	std::cout << "> ";
   	std::cin >> tipojog;
-  	std::cout << std::endl;
+  	std::cout << '\n';
 
 	if(tipojog == "1")
 	{
-		std::cout << "Quina" << std::endl;
+		std::cout << "Quina" << '\n';
 		quina(); 
 	}else if(tipojog == "2")
 	{
-		std::cout << "Mega-Sena" << std::endl;
+		std::cout << "Mega-Sena" << '\n';
 		sena();
 	}else if(tipojog == "3")
 	{
-		std::cout << "LotoMania" << std::endl;
+		std::cout << "LotoMania" << '\n';
 		mania();
 	}else if(tipojog == "4")
 	{
-		std::cout << "LotoFácil" << std::endl;
+		std::cout << "LotoFácil" << '\n';
 		facil();
 	}else
 	{
-		std::cout << "Opção inválida, tente novamente." << std::endl;
-		std::cout << std::endl;
+		std::cout << "Opção inválida, tente novamente." << '\n';
+		std::cout << '\n';
 	}
 
 	char varConti;

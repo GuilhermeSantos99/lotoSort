@@ -9,11 +9,10 @@ void sena();
 void mania();
 void facil();
 
-void quina(){
-
+void quina()
+{
   using std::cout;
-  using std::endl;
-
+  
   constexpr int MIN = 1;
   constexpr int MAX = 80;
 
@@ -26,12 +25,12 @@ void quina(){
   for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
     cout << distr(eng) << "; ";
   }
-  cout << endl;
+  cout << '\n';
 }
 
 void sena(){
+
   using std::cout;
-  using std::endl;
 
   constexpr int MIN = 1;
   constexpr int MAX = 60;
@@ -45,13 +44,12 @@ void sena(){
   for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
     cout << distr(eng) << "; ";
   }
-  cout << endl;
-
+  cout << '\n';
 }
 
-void mania(){
+void mania()
+{
   using std::cout;
-  using std::endl;
 
   constexpr int MIN = 1;
   constexpr int MAX = 60;
@@ -65,12 +63,12 @@ void mania(){
   for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
     cout << distr(eng) << "; ";
   }
-  cout << endl;
+  cout << '\n';
 }
 
-void facil(){
+void facil()
+{
   using std::cout;
-  using std::endl;
 
   constexpr int MIN = 1;
   constexpr int MAX = 25;
@@ -84,6 +82,7 @@ void facil(){
   for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
     cout << distr(eng) << "; ";
   }
+  cout << '\n';
 }
 
 #endif

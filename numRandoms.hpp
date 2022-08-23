@@ -23,7 +23,14 @@ void quina()
   std::uniform_int_distribution<int> distr(MIN, MAX);
 
   for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
-    cout << distr(eng) << "; ";
+    
+    if ( n < RAND_NUMS_TO_GENERATE - 1 )
+    {
+      cout << distr(eng) << " - ";
+    } else
+    {
+      cout << distr(eng);
+    }
   }
   cout << '\n';
 }
@@ -42,7 +49,13 @@ void sena(){
   std::uniform_int_distribution<int> distr(MIN, MAX);
 
   for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
-    cout << distr(eng) << "; ";
+    if ( n < RAND_NUMS_TO_GENERATE - 1 )
+    {
+      cout << distr(eng) << " - ";
+    } else
+    {
+      cout << distr(eng);
+    }
   }
   cout << '\n';
 }
@@ -61,7 +74,13 @@ void mania()
   std::uniform_int_distribution<int> distr(MIN, MAX);
 
   for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
-    cout << distr(eng) << "; ";
+    if ( n < RAND_NUMS_TO_GENERATE - 1 )
+    {
+      cout << distr(eng) << " - ";
+    } else
+    {
+      cout << distr(eng);
+    }
   }
   cout << '\n';
 }
@@ -80,7 +99,13 @@ void facil()
   std::uniform_int_distribution<int> distr(MIN, MAX);
 
   for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
-    cout << distr(eng) << "; ";
+    if ( n < RAND_NUMS_TO_GENERATE - 1 )
+    {
+      cout << distr(eng) << " - ";
+    } else
+    {
+      cout << distr(eng);
+    }
   }
   cout << '\n';
 }

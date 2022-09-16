@@ -1,5 +1,5 @@
-#ifndef NUMRANDOMS_H_INCLUDED
-#define NUMRANDOMS_H_INCLUDED
+#ifndef NUMRANDOMS_HPP_INCLUDED
+#define NUMRANDOMS_HPP_INCLUDED
 
 #include <iostream>
 #include <random>
@@ -8,6 +8,7 @@ void quina();
 void sena();
 void mania();
 void facil();
+void showTips();
 
 void quina()
 {
@@ -108,6 +109,22 @@ void facil()
     }
   }
   cout << '\n';
+}
+
+void showTips()
+{
+  std::cout << '\n';
+  std::cout << "======= lotoSort ========" << '\n';
+	std::cout << "_________________________" << '\n';
+ 	std::cout << "| - Jogos disponíveis - |" << '\n';
+	std::cout << "|-----------------------|" << '\n';
+	std::cout << "| 1 - Quina             |" << '\n';
+	std::cout << "| 2 - Mega-Sena         |" << '\n';
+	std::cout << "| 3 - LotoMania         |" << '\n';
+	std::cout << "| 4 - LotoFácil         |" << '\n';
+	std::cout << "|-----------------------|" << '\n';
+ 	std::cout << '\n' << "Digite o número correspondente ao tipo de aposta: " << '\n';
+	std::cout << "> ";
 }
 
 #endif

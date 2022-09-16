@@ -9,20 +9,10 @@ int main(){
 	
 	std::string tipojog;
 
+	showTips();
+
+	std::cin >> tipojog;
 	std::cout << '\n';
-  	std::cout << "======= lotoSort ========" << '\n';
-	std::cout << "_________________________" << '\n';
- 	std::cout << "| - Jogos disponíveis - |" << '\n';
-	std::cout << "|-----------------------|" << '\n';
-	std::cout << "| 1 - Quina             |" << '\n';
-	std::cout << "| 2 - Mega-Sena         |" << '\n';
-	std::cout << "| 3 - LotoMania         |" << '\n';
-	std::cout << "| 4 - LotoFácil         |" << '\n';
-	std::cout << "|-----------------------|" << '\n';
- 	std::cout << '\n' << "Digite o número correspondente ao tipo de aposta: " << '\n';
-	std::cout << "> ";
-  	std::cin >> tipojog;
-  	std::cout << '\n';
 
 	if(tipojog == "1")
 	{

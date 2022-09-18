@@ -1,12 +1,10 @@
-# My second makefile
-
 # Name of the project
 PROJ_NAME=lotoSort
 
-# .c files
+# .cpp files
 CPP_SOURCE=$(wildcard *.cpp)
 
-# .h files
+# .hpp files
 HPP_SOURCE=$(wildcard *.hpp)
 
 # Object files

@@ -24,4 +24,4 @@ Para isso, basta compilar e executar o código e inserir o tipo de jogo desejado
 + Informe se deseja gerar mais números aleatórios ou finalizar a execução.
 
 
->Sou um entusiasta da programação e, infelizmente, não pude dedicar o tempo necessário para completar esse projeto. Por isso, fico aberto à sugestões.
+>Sou um entusiasta da programação em aprendizado e ainda tenho muito o que aprender e muito o que melhorar nesse projeto, por isso, fico aberto à sugestões.

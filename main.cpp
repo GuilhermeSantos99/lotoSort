@@ -5,6 +5,6 @@
 
 int main(){
 
-	void seleSort();	
+	void run();	
   return 0;
 }

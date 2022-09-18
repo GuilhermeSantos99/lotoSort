@@ -23,7 +23,7 @@ void quina()
   std::default_random_engine eng(rd());
   std::uniform_int_distribution<int> distr(MIN, MAX);
 
-  for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
+  for (std::size_t n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
     
     if ( n < RAND_NUMS_TO_GENERATE - 1 )
     {
@@ -49,7 +49,7 @@ void sena(){
   std::default_random_engine eng(rd());
   std::uniform_int_distribution<int> distr(MIN, MAX);
 
-  for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
+  for (std::size_t n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
     if ( n < RAND_NUMS_TO_GENERATE - 1 )
     {
       cout << distr(eng) << " - ";
@@ -74,7 +74,7 @@ void mania()
   std::default_random_engine eng(rd());
   std::uniform_int_distribution<int> distr(MIN, MAX);
 
-  for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
+  for (std::size_t n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
     if ( n < RAND_NUMS_TO_GENERATE - 1 )
     {
       cout << distr(eng) << " - ";
@@ -99,7 +99,7 @@ void facil()
   std::default_random_engine eng(rd());
   std::uniform_int_distribution<int> distr(MIN, MAX);
 
-  for (int n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
+  for (std::size_t n = 0; n < RAND_NUMS_TO_GENERATE; ++n){
     if ( n < RAND_NUMS_TO_GENERATE - 1 )
     {
       cout << distr(eng) << " - ";

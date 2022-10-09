@@ -50,7 +50,6 @@ void run()
  } 
 }
 
-
 void quina()
 {
   using std::cout;
@@ -77,7 +76,8 @@ void quina()
   cout << '\n';
 }
 
-void sena(){
+void sena()
+{
 
   using std::cout;
 

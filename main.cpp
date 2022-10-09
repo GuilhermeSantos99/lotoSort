@@ -1,10 +1,7 @@
-#include <iostream>
-#include <random>
-#include <algorithm>
-#include "numRandoms.hpp"
+#include "lotoSort.hpp"
 
 int main(){
-
-	void run();	
+	
+	run();	
   return 0;
 }

@@ -14,17 +14,25 @@ void run() {
     std::cout << '\n';
 
     if (tipojog == "1") {
+      system("clear");
       std::cout << "Quina" << '\n';
       quina();
+      std::cout << '\n';
     } else if (tipojog == "2") {
+      system("clear");
       std::cout << "Mega-Sena" << '\n';
       sena();
+      std::cout << '\n';
     } else if (tipojog == "3") {
+      system("clear");
       std::cout << "LotoMania" << '\n';
       mania();
+      std::cout << '\n';
     } else if (tipojog == "4") {
+      system("clear");
       std::cout << "LotoFácil" << '\n';
       facil();
+      std::cout << '\n';
     } else {
       std::cout << "Opção inválida, tente novamente." << '\n';
       std::cout << '\n';
